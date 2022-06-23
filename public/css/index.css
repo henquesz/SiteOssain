@@ -16,10 +16,13 @@
 }
 .navbar ul li {
  padding-bottom: 15px;
- padding-left: 10px;   
+ padding-left: 10px;
 }
 .title{
     padding-top: 110px;
+}
+h2{
+    font-weight: 300;
 }
 .btn{
     background-color: #58c0ab;
