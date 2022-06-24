@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700;800&display=swap');
+body{
+    overflow: hidden; 
+}
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +12,7 @@
 .SectionPrincipal{
     width: 100%;
     height: 100%;
-
+    text-align: right;
 }
 .navbar{
     background-color: white !important;
@@ -19,28 +22,39 @@
  padding-bottom: 15px;
  padding-left: 10px;
 }
-.title{
-    padding-top: 150px;
+.bolha1{
+    width: 400px;
+    height: 400px;
+    opacity: 0.7;
+    z-index: 9;
+    background-color: aqua;
+    border-radius: 50%;
+    margin-left: -250px;
+}
+.bolha2{
+    width: 700px;
+    height: 700px;
+    opacity: 0.7;
+    z-index: 1;
+    background-color: aqua;
+    border-radius: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
 }
 h2{
     font-weight: 300;
+    padding-top: 150px;
 }
 .btn{
     background-color: #58c0ab;
     border: none;
     height: 30px;
-    width: 100px;
+    width: 150px;
     padding: 0;
     font-size: small;
 }
 .btn:hover{
     background-color: #439686;
-}
-#imgcel{
-    max-width: 1000px;
-    max-height: 500px;
-    margin-left: -10px;
-    padding-top: 70px;
 }
 
 
@@ -48,6 +62,7 @@ h2{
     .SectionPrincipal{
         width: 100%;
         height: 100%;
+        text-align: center;
     }
     .navbar{
         background-color: white !important;
@@ -57,28 +72,4 @@ h2{
      padding-bottom: 15px;
      padding-left: 10px;
     }
-    .title{
-        padding-top: 250px;
-    }
-    h2{
-        font-weight: 300;
-    }
-    .btn{
-        background-color: #58c0ab;
-        border: none;
-        height: 30px;
-        width: 100px;
-        padding: 0;
-        font-size: small;
-    }
-    .btn:hover{
-        background-color: #439686;
-    }
-    #imgcel{
-        max-width: 1000px;
-        max-height: 600px;
-        padding-top: 150px;
-    }
 }
-
-
