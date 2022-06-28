@@ -40,6 +40,7 @@ h2{
     background-color: #439686;
 }
 #imgcel{
+    position: relative;
     max-width: 1000px;
     max-height: 500px;
     margin-left: -10px;
@@ -55,6 +56,10 @@ h2{
     border-radius: 50%;
     margin-left: -350px;
     margin-top: -150px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 .bolha2{
     width: 900px;
@@ -65,9 +70,21 @@ h2{
     border-radius: 50%;
     margin-top: -800px;
     margin-left: -100px;
+    animation-name: floating2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
 }
-
-
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+@keyframes floating2 {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, -15px); }
+    100%   { transform: translate(0, 0px); }
+}
 @media only screen and (min-width: 1440px) {
     .SectionPrincipal{
         width: 100%;
@@ -101,9 +118,9 @@ h2{
     #imgcel{
         position: relative;
         max-width: 1000px;
-        max-height: 600px;
+        max-height: 700px;
         z-index: 999;
-        padding-top: 150px;
+        padding-top: 120px;
     }
     .bolha1{
         width: 500px;
