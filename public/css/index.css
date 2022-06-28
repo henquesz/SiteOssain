@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700;800&display=swap');
+body{
+    overflow: hidden;
+}
 * {
     margin: 0;
     padding: 0;
@@ -13,13 +16,17 @@
 }
 .navbar{
     background-color: white !important;
+    height: 100px;
 }
 .navbar ul li {
  padding-bottom: 15px;
- padding-left: 10px;   
+ padding-left: 10px;
 }
 .title{
-    padding-top: 110px;
+    padding-top: 150px;
+}
+h2{
+    font-weight: 300;
 }
 .btn{
     background-color: #58c0ab;
@@ -27,9 +34,97 @@
     height: 30px;
     width: 100px;
     padding: 0;
+    font-size: small;
 }
 .btn:hover{
     background-color: #439686;
+}
+#imgcel{
+    max-width: 1000px;
+    max-height: 500px;
+    margin-left: -10px;
+    z-index: 999;
+    padding-top: 70px;
+}
+.bolha1{
+    width: 500px;
+    height: 500px;
+    opacity: 0.7;
+    z-index: 0;
+    background-color: #58c0ab;
+    border-radius: 50%;
+    margin-left: -350px;
+    margin-top: -150px;
+}
+.bolha2{
+    width: 900px;
+    height: 900px;
+    opacity: 0.7;
+    z-index: 0;
+    background-color: #58c0ab;
+    border-radius: 50%;
+    margin-top: -800px;
+    margin-left: -100px;
+}
+
+
+@media only screen and (min-width: 1440px) {
+    .SectionPrincipal{
+        width: 100%;
+        height: 100%;
+    }
+    .navbar{
+        background-color: white !important;
+        height: 100px;
+    }
+    .navbar ul li {
+     padding-bottom: 15px;
+     padding-left: 10px;
+    }
+    .title{
+        padding-top: 250px;
+    }
+    h2{
+        font-weight: 300;
+    }
+    .btn{
+        background-color: #58c0ab;
+        border: none;
+        height: 30px;
+        width: 100px;
+        padding: 0;
+        font-size: small;
+    }
+    .btn:hover{
+        background-color: #439686;
+    }
+    #imgcel{
+        position: relative;
+        max-width: 1000px;
+        max-height: 600px;
+        z-index: 999;
+        padding-top: 150px;
+    }
+    .bolha1{
+        width: 500px;
+        height: 500px;
+        opacity: 1;
+        z-index: 1;
+        background-color: #58c0ab;
+        border-radius: 50%;
+        margin-left: -350px;
+        margin-top: -50px;
+    }
+    .bolha2{
+        width: 900px;
+        height: 900px;
+        opacity: 0.7;
+        z-index: 0;
+        background-color: #58c0ab;
+        border-radius: 50%;
+        margin-top: -900px;
+        margin-left: 0px;
+    }
 }
 
 
