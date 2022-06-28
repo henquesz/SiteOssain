@@ -31,7 +31,7 @@ body{
     border-radius: 50%;
     margin-left: -250px;
     animation-name: floating;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
