@@ -8,10 +8,20 @@
 }
 body{
   background-color: white;
+  overflow-x:hidden;
 }
-body.dark{
+#pdk{
+  margin-top: 8px;
+}
+.dark-mode{
   background-color:#303030;
   color: white;
+}
+.dark-mode nav{
+  background-color: #333333 !important;
+}
+.dark-mode a{
+  color: white !important;
 }
 .SectionPrincipal {
   width: 100%;

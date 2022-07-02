@@ -4,6 +4,19 @@
 body {
   overflow: hidden;
 }
+#pdk{
+  margin-top: 8px;
+}
+.dark-mode{
+  background-color: #333333;
+  color: white;
+}
+.dark-mode nav{
+  background-color: #333333 !important;
+}
+.dark-mode a{
+  color: white !important;
+}
 * {
   margin: 0;
   padding: 0;

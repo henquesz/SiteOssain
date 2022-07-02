@@ -1,6 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700;800&display=swap");
 body {
   overflow-x: hidden;
+  background-color: white;
+}
+#pdk{
+  margin-top: 8px;
+}
+.dark-mode{
+  background-color: #333333;
+  color: white;
+}
+.dark-mode nav{
+  background-color: #333333 !important;
+}
+.dark-mode a{
+  color: white !important;
 }
 * {
   margin: 0;
@@ -190,11 +204,13 @@ section .card .image img {
 .name-profession .name {
   font-size: 20px;
   font-weight: 600;
+  color:#333333;
 }
 
 .name-profession .profession {
   font-size: 15px;
   font-weight: 500;
+  color: #333333;
 }
 
 .card .rating {

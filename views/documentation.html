@@ -10,6 +10,7 @@
     <link href="/public/css/documentation.css" rel="stylesheet">
     <title>Ossain | Bulbassaur Group</title>
     <link rel="shortcut icon" type="image/png" href="" />
+    <script src="/js/darkMode.js"></script>
 </head>
 
 <body>
@@ -18,7 +19,7 @@
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container">
                 <a href="/views/index.html"><img id="imgNav" src="/public/assets/ossainGroup-black.png" alt=""
-                        style="height:200px; width:200px;"></a>
+                        style="height:200px; width:200px; margin-left: 70px;"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -34,7 +35,8 @@
                         <li class="nav-item">
                             <a class="nav-link text-black" href="/views/desenvolvedores.html">Desenvolvedores</a>
                         </li>
-                        <input type="checkbox" id="switch" /><label for="switch">Toggle</label>
+                        <input type="checkbox" id="switch" onchange="darkmode()" /><label for="switch">Toggle</label>
+                        <p id="pdk"> |DarkMode</p>
                     </ul>
                 </div>
             </div>

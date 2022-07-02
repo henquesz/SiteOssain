@@ -11,6 +11,7 @@
     <script src="/js/darkMode.js"></script>
     <title>Ossain | Bulbassaur Group</title>
     <link rel="shortcut icon" type="image/png" href="" />
+    <script src="/js/darkMode.js"></script>
 </head>
 
 <body>
@@ -19,7 +20,7 @@
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container">
                 <a href="/views/index.html"><img id="imgNav" src="/public/assets/ossainGroup-black.png" alt=""
-                        style="height:200px; width:200px;"></a>
+                        style="height:200px; width:200px; margin-left: 70px;"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -35,7 +36,8 @@
                         <li class="nav-item">
                             <a class="nav-link text-black" href="/views/desenvolvedores.html">Desenvolvedores</a>
                         </li>
-                        <input type="checkbox" id="btn" name="btn" /><label for="btn">Toggle</label>
+                        <input type="checkbox" id="btn" name="btn" onchange="darkmode()" /><label for="btn">Toggle</label>
+                        <p id="pdk"> |DarkMode</p>
                     </ul>
 
                 </div>
@@ -52,7 +54,7 @@
                         <img id="imgcont" src="/public/assets/bulbassaur2.gif" alt="">
                         <div class="bolha1"></div>
                         <h2 class="title">Any questions?<span style="color:#58c0ab;">contact us.</span></h2>
-                        <p style="color:#2d2d2d ;">Caso você tenha ficado com alguma dúvida sobre a nossa aplicação ou
+                        <p>Caso você tenha ficado com alguma dúvida sobre a nossa aplicação ou
                             tenha alguma sugestão, entre em contato conosco pelo nossos meios de contato.</p>
                         <div class="bolha2"></div>
                     </div>
