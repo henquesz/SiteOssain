@@ -1,3 +1,5 @@
+
+/* Código universal das telas */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700;800&display=swap");
 body {
   overflow: hidden;
@@ -21,6 +23,32 @@ body {
   padding-bottom: 15px;
   padding-left: 10px;
 }
+
+/* Animações floating para bolhas */
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+@keyframes floating2 {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, -15px);
+  }
+  100% {
+    transform: translate(0, 0px);
+  }
+}
+/* Fim do código universal */
+
 .title {
   padding-top: 150px;
 }
@@ -74,28 +102,8 @@ h2 {
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
-@keyframes floating {
-  0% {
-    transform: translate(0, 0px);
-  }
-  50% {
-    transform: translate(0, 15px);
-  }
-  100% {
-    transform: translate(0, -0px);
-  }
-}
-@keyframes floating2 {
-  0% {
-    transform: translate(0, 0px);
-  }
-  50% {
-    transform: translate(0, -15px);
-  }
-  100% {
-    transform: translate(0, 0px);
-  }
-}
+
+/* Resposividade em monitores grandes */
 @media only screen and (min-width: 1440px) {
   .SectionPrincipal {
     width: 100%;
@@ -153,6 +161,9 @@ h2 {
     margin-left: 0px;
   }
 }
+/* Fim da responsividade em monitores grandes */
+
+/* Código para efeito typing  */
 .teste {
   width: 22ch;
   animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
@@ -174,6 +185,9 @@ h2 {
     border-color: transparent;
   }
 }
+/* Fim do efeito typing */
+
+/* Código para estilização de checkbox (darkmode) */
 input[type="checkbox"] {
   height: 0;
   width: 0;
@@ -182,7 +196,7 @@ input[type="checkbox"] {
 
 label {
   margin-top: 10px;
-  margin-left: 450px;
+  margin-left: 400px;
   cursor: pointer;
   text-indent: -9999px;
   width: 50px;
@@ -218,3 +232,4 @@ input:checked + label:after {
 label:active:after {
   width: 130px;
 }
+/* Fim de código de estilização checkbox */
