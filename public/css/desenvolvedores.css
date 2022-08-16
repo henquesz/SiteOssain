@@ -317,3 +317,56 @@ input:checked + label:after {
 label:active:after {
   width: 130px;
 }
+
+/* Resposividade em telas pequenas */
+@media only screen and (max-width: 1024px) {
+  .navbar {
+    height: auto;
+  }
+
+  #navbar {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
+
+  .SectionPrincipal {
+    padding-top : 0px;
+  }
+
+  h2 {
+    font-weight: 500;
+    font-size: 30px;
+
+  }
+  p {
+    font-size: 15px;
+    text-align: match-parent;
+    padding: 0px;
+  }
+
+  h2 {
+    text-align: match-parent;
+    padding: 0px;
+  }
+
+  #texto {
+    text-align: center;
+  }
+
+  #devlogo {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .sectionfinal {
+    padding-top: 0px;
+  }
+
+  .card {
+    width: 0px;
+  }
+}
