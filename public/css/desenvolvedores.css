@@ -1,16 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700;800&display=swap");
 body {
   overflow-x: hidden;
-  background-color: #fff;
+  background-color: white;
   color: black;
 }
-
-.fas{
+#teste-moon{
   cursor: pointer;
   position: absolute;
-  margin-left: 880px;
+  margin-left: 980px;
 }
-.fas:hover{
+#teste-moon:hover{
   color: #439686;
   transform: rotate(-25deg);
 }

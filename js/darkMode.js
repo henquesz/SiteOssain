@@ -1,6 +1,6 @@
 window.onload=function(){
 
-    const darnkBtn = document.getElementById('teste');
+    const darnkBtn = document.getElementById('teste-moon');
     const bodyEl = document.querySelector('body');
     
     const darkMode = () => {
