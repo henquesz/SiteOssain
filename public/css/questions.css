@@ -7,14 +7,23 @@
   font-weight: 300;
 }
 body{
-  background-color: white;
   overflow-x:hidden;
+  background-color: #fff;
+  color: black;
 }
-#pdk{
-  margin-top: 8px;
+
+.fas{
+  cursor: pointer;
+  position: absolute;
+  margin-left: 880px;
 }
+.fas:hover{
+  color: #439686;
+  transform: rotate(-25deg);
+}
+
 .dark-mode{
-  background-color:#303030;
+  background-color:#333333;
   color: white;
 }
 .dark-mode nav{
@@ -75,10 +84,10 @@ body{
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
-#teste {
+/* #teste {
   position: relative;
   margin-top: -100px;
-}
+} */
 @keyframes floating {
   0% {
     transform: translate(0, 0px);
@@ -155,15 +164,10 @@ body{
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
   }
-  #teste {
+  /* #teste {
     position: relative;
     margin-top: -280px;
-  }
-}
-input[type="checkbox"] {
-  height: 0;
-  width: 0;
-  visibility: hidden;
+  } */
 }
 
 label {

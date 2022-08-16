@@ -3,9 +3,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700;800&display=swap");
 body {
   overflow: hidden;
+  background-color: #fff;
+  color: black;
 }
-#pdk{
-  margin-top: 8px;
+.fas{
+  cursor: pointer;
+  position: absolute;
+  margin-left: 980px;
+}
+.fas:hover{
+  color: #439686;
+  transform: rotate(-25deg);
 }
 .dark-mode{
   background-color: #333333;
@@ -17,6 +25,7 @@ body {
 .dark-mode a{
   color: white !important;
 }
+
 * {
   margin: 0;
   padding: 0;
